@@ -1,0 +1,5 @@
+#this is to let you know the command to run the script.
+
+./exec.sh <source_file> <dest_file>
+
+#for example I executed ./exec.sh simple1.tl token.txt to generate a Tokenized file given the imput file simple1.tl in the same folde.

@@ -1,0 +1,12 @@
+// Control Flow Graph
+digraph {
+	B1 [label="B1
+readint       => 0
+mov 0     => r_X
+movi     2 => 1
+mul 1 r_X   => 2
+writeint 2     =>  
+" shape=box]
+	exit [label=exit]
+		B1 -> exit
+}
